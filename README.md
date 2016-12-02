@@ -4,7 +4,7 @@ In this assignment, we will be creating a Task List to keep track of things we n
 
 We are going to create a new class named Task  with the following requirements:
 
-![xml](https://github.com/S33V/IC25_TaskList/images/task.png "Task")
+![xml](https://github.com/S33V/IC25_TaskList/blob/master/images/Task.png)
 
 We're going to add serialization to the Task class, so that it can be persisted (written) to a binary file, acting like a task list.  We need to customize the Task class to make it Serializable, then use a ObjectOutputStream to write the task list to disk.
 
