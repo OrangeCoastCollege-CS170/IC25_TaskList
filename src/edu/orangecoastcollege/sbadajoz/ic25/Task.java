@@ -1,4 +1,7 @@
 package edu.orangecoastcollege.sbadajoz.ic25;
+
+import java.io.Serializable;
+
 /*
 Badajoz, Seve
 CS A170
@@ -6,7 +9,7 @@ December 2, 2016
 
 IC25
 */
-public class Task {
+public class Task implements Serializable{
 	private String mDeadline, mDueDate, mName;
 	private int mPriority;
 	
