@@ -62,7 +62,7 @@ public class Task implements Serializable{
 	@Override
 	public String toString() {
 		return "Task [name=" + mName + ", dueDate=" + mDueDate + ", deadline=" + mDeadline + 
-				 ", priority=" + mPriority + "]";
+				 ", priority=" + ((mPriority == 1)? "High":(mPriority == 2)? "Medium":"Low")+ "]";
 	}
 
 	@Override
